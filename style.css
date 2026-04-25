@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(5,88,88);
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+}
+
+.game{
+    height: 60vh;
+    width: 60vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box{
+    height: 18vh;
+    width: 18vh;
+    font-size: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 1rem black;
+}
+
+.reset, #new-btn{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+button:hover{
+    color: aqua;
+}
+
+#msg{
+    color: white;
+    font-size: 30px;
+}
+
+.hide{
+    display: none;
+}
